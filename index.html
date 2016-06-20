@@ -1,1 +1,22 @@
+<!DOCTYPE <html>
 
+<head>
+
+	<title>Flappy Bird Recreation</title>
+	<link rel="stylesheet" type="text/css" href="Styles/flappyBirdStylesheet.css">
+</head>
+<body>
+
+	<h2>Flappy Bird</h2>
+	<canvas id="flappy-bird-canvas" width="1000" height="550"></canvas>
+
+	<footer id="flappy-bird-footer"></footer>
+	<script type="text/javascript" src="Scripts/flappyBirdRenderer.js"></script>
+	<script type="text/javascript" src="Scripts/flappyBirdEngine.js"></script>
+	<script type="text/javascript" src="Scripts/flappyBirdGame.js"></script>
+	<script type="text/javascript">
+		document.getElementById('flappy-bird-footer').innerHTML = new Date().getFullYear() + '&copy GeorgiKaraylev ' +
+																	' Flappy Bird Recreation';
+	</script>
+</body>
+</html>
